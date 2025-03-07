@@ -32,3 +32,4 @@ jobs:
           jekyll_baseurl: '/jekyll-theme-yat'  # Default is empty
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
+          build_cmd: 'bundle exec jekyll build'  # Custom build command
