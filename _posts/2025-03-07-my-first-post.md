@@ -10,3 +10,4 @@ This post should not appear in the search index because it has the following YAM
 ```yaml
 search: false
 ```
+
