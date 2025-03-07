@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Research Blog"
 title_separator          : "-"
-subtitle                 : "A Ph.D. Candidate at Shanghai Jiao Tong University."
+subtitle                 : 
 name                     : "Yang Ding"
 description              : "The best way to predict the future is to create it."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -314,9 +314,10 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
       comments: # true
