@@ -1,0 +1,37 @@
+---
+layout: archive
+title: "Posts by Collection"
+permalink: /projects/
+author_profile: true
+---
+
+<div class="showcase">
+    <div class="container">
+        <h1>LightEndoStereo: Lightweight Real-Time Stereo Matching for Endoscopic Images</h1>
+        <p>Real-time acquisition of accurate depth of scene is essential for automated robotic minimally invasive surgery. We propose a novel method to tackle the challenges of ambiguous tissue boundaries and real-time performance.</p>
+    </div>
+</div>
+
+<div class="main" id="framework">
+    <h2>Framework</h2>
+    <img src="assets/framework.png" alt="Framework">
+    <p>We introduce a 3D Mamba Coordinate Attention module to streamline the cost aggregation process by generating position-sensitive attention maps and capturing long-range dependencies across spatial dimensions using the Mamba block. Additionally, we introduce a High-Frequency Disparity Optimization module to refine disparity estimates at tissue boundaries by enhancing high-frequency information in the wavelet domain.</p>
+</div>
+
+<div class="main" id="samples">
+    <h2>Samples</h2>
+    <div class="samples">
+        <h3>Samples on SCARED</h3>
+        <div class="sample">
+            <object data="assets/videos/LightEndoStereo_demo.mp4"></object>
+        </div>
+        <h3>Samples on SERV-CT</h3>
+        <div class="sample">
+            <img src="assets/sample2.png" alt="Sample on SERV-CT">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 LightEndoStereo. All rights reserved.</p>
+</footer>
