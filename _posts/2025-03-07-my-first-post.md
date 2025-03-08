@@ -1,5 +1,6 @@
 ---
 title: My Fist Test Post
+layout: archive
 search: true
 classes: wide
 categories:
