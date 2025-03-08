@@ -1,6 +1,7 @@
 ---
 title: My Fist Test Post
 search: true
+classes: wide
 categories:
     - test-pages
 tags:
