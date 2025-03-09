@@ -1,5 +1,5 @@
 ---
-title: My Fist Test Post
+title: LightEndoStereo: A Real-time Lightweight Stereo Matching Method for Endoscopy Images
 search: true
 classes:
     - wide
@@ -8,7 +8,7 @@ categories:
 tags:
     - Stereo Matching
 ---
-
+[Arxiv](https://arxiv.org/abs/2503.00731)  |  [Code](https://github.com/Sonne-Ding/LightEndoStereo)
 
 ## Framework
 
@@ -17,6 +17,7 @@ tags:
 ## Samples
 
 ### SCARED
+
 <div> <div> <video controls width="940" height="680"> <source src="https://raw.githubusercontent.com/Sonne-Ding/LightEndoStereo/main/assets/videos/LightEndoStereo_demo.mp4" type="video/mp4"> Your browser does not support the video tag. </video> </div> 
 
 <div class="sample"> <img src="https://github.com/Sonne-Ding/LightEndoStereo/blob/main/assets/sample1.png?raw=true" alt="Sample on SCARED"> </div> </div>
