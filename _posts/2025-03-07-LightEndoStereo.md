@@ -1,5 +1,5 @@
 ---
-title: LightEndoStereo: A Real-time Lightweight Stereo Matching Method for Endoscopy Images
+title: "LightEndoStereo: A Real-time Lightweight Stereo Matching Method for Endoscopy Images"
 search: true
 classes:
     - wide
@@ -8,6 +8,7 @@ categories:
 tags:
     - Stereo Matching
 ---
+
 [Arxiv](https://arxiv.org/abs/2503.00731)  |  [Code](https://github.com/Sonne-Ding/LightEndoStereo)
 
 ## Framework
