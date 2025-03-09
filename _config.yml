@@ -318,7 +318,7 @@ defaults:
     values:
       layout: single
       toc: true
-      toc_icon: "cog"
+      toc_icon: "folder"
       author_profile: true
       read_time: true
       comments: false
