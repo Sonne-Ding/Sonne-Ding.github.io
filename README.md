@@ -4,4 +4,4 @@ Using the [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mi
 
 ## _config.yml
 
-- The icon 
+- The `icon` is from https://fontawesome.com
