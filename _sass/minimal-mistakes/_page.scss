@@ -88,6 +88,11 @@ body {
 }
 
 .page__content {
+  background-color: $content-background-color;
+  padding: 20px; // 添加内边距，确保内容与边界有空隙
+  margin: 20px; // 添加外边距，确保内容区域与边界有空隙
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // 添加阴影模糊效果
+  border-radius: $border-radius; // 添加圆角效果，使阴影看起来更自然
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
