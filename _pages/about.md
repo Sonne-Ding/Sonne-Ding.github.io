@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>A PhD. candidate in Shanghai Jiao Tong University</a>.
 
 profile:
   align: right
