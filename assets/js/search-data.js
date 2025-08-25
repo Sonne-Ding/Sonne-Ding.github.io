@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-ubuntu22-04安装rime-雾凇输入法-美化-实现跟微软拼音一样的使用体验-基于flatpak-dingyang",
+        
+          title: 'Ubuntu22.04安装rime+雾凇输入法+美化，实现跟微软拼音一样的使用体验(基于Flatpak) - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "首先安装Flatpak，并使用它安装fcitx5 and rime： sudo apt install flatpak flatpak remote-add --user flathub https://flathub.org/repo/flathub.flatpakrepo flatpak ins",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/19006321", "_blank");
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -55,26 +66,136 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+      },{id: "post-typora主题美化-代码块颜色修改-标题颜色修改-dingyang",
         
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'typora主题美化——代码块颜色修改，标题颜色修改 - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        description: "typora的GitHub主题是默认主题，也是最符合我的审美的主题。但是仍然有几个小地方不能让我满意： 一级标题和二级标题不够明显 代码块是白色背景，不好看 于是基于官网给的部分代码做了，做了一点小的修改，最终效果如下 版本1： 版本2： 微调github.css主题方法： 1. 打开Theme文件",
         section: "Posts",
         handler: () => {
           
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.open("https://www.cnblogs.com/yang-ding/p/17337555.html", "_blank");
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+      },{id: "post-倒位序算法-c-实现-dingyang",
         
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '倒位序算法（C#实现） - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "倒位序算法（C#实现） | 原序数（十进制） | 原序数（二进制） | 倒位序（二进制） | 倒位序（十进制） | | | | | | | 0 | 000 | 000 | 0 | | 1 | 001 | 100 | 4 | | 2 | 010 | 010 | 3 | | 3 | 011 | 110",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            window.open("https://www.cnblogs.com/yang-ding/p/16858851.html", "_blank");
+          
+        },
+      },{id: "post-大学课程论文latex模板-dingyang",
+        
+          title: '大学课程论文Latex模板 - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "效果展示 Latex代码 \documentclass[a4paper,UTF8,10pt]{ctexart} \usepackage{xeCJK,amsmath,paralist,booktabs,multirow,graphicx,float,subfig,setspace,listings,x",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16852529.html", "_blank");
+          
+        },
+      },{id: "post-大学实验报告latex模板-dingyang",
+        
+          title: '大学实验报告Latex模板 - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "效果展示 Latex代码 \documentclass[12pt,a4paper,oneside,UTF8]{ctexart} %设置页边距 \usepackage[left=1.91cm,right=1.91cm,top=2.54cm,bottom=2.54cm]{geometry} %需要用到的",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16852451.html", "_blank");
+          
+        },
+      },{id: "post-对cart决策树剪枝过程的理解-dingyang",
+        
+          title: '对CART决策树剪枝过程的理解 - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "对CART决策树剪枝过程的理解 前言：CART决策树生成的过程比较好理解，但是剪枝的过程看了好几遍才看明白，故写出下文，供同样困惑的朋友参考。下文不涉及复杂严密的数学推导，以辅助理解为主。 一. 损失函数的定义方法 CART的损失函数用的是下式： $$ C_\alpha(T)=C(T)+\alpha",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16805491.html", "_blank");
+          
+        },
+      },{id: "post-拉格朗日插值原理及实现-python-matlab-dingyang",
+        
+          title: '拉格朗日插值原理及实现（Python, Matlab） - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "拉格朗日插值原理及实现（Python, Matlab） 目录拉格朗日插值原理及实现（Python, Matlab）一. 前言二. 3种形式的Lagrange插值函数推导1. 原始形态的Lagrange插值2. 第一形式Lagrange插值3. 第二形式的Lagrange插值（重心插值公式）三. 利用",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16728202.html", "_blank");
+          
+        },
+      },{id: "post-证明矩阵的迹等于特征值之和-矩阵的行列式等于特征值的乘积-dingyang",
+        
+          title: '证明矩阵的迹等于特征值之和，矩阵的行列式等于特征值的乘积 - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "证明矩阵的迹等于特征值之和，矩阵的行列式等于特征值的乘积 矩阵的特征值有以下性质： 设n阶矩阵$M=(m_{ij})_{n\times n}$的全部特征值为$\lambda _1,\lambda _2,\cdots ,\lambda _n$，则有 性质1:$\lambda _1 \lambda _2",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16692486.html", "_blank");
+          
+        },
+      },{id: "post-ni数据采集卡上位机设计-labview-dingyang",
+        
+          title: 'NI数据采集卡上位机设计（Labview） - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "NI数据采集卡上位机设计（Labview） 本文设计的上位机主要有以下特点： 使用NI DAQmx 函数套件读取NI公司数据采集卡内容； 利用XY图绘图，实现了波形大小可调且X轴标签合理对应（波形图表数据缓存区无法在程序面板进行调节，运行过程中无法调节波形大小；波形图可通过传入数据大小调节波形大小，",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16624283.html", "_blank");
+          
+        },
+      },{id: "post-c-实现fft-递归法-dingyang",
+        
+          title: 'C#实现FFT（递归法） - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "C#实现FFT（递归法） 1. C#实现复数类 我们在进行信号分析的时候，难免会使用到复数。但是遗憾的是，C#没有自带的复数类，以下提供了一种复数类的构建方法。 复数相比于实数，可以理解为一个二维数，构建复数类，我们需要实现以下这些内容： 复数实部与虚部的属性 复数与复数的加减乘除运算 复数与实数的",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16466018.html", "_blank");
+          
+        },
+      },{id: "post-markdown常用语法-dingyang",
+        
+          title: 'Markdown常用语法 - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "一、标题 使用n个“#”表示n级标题。 #一级标题 ##二级标题 使用“-”or&amp;quot;=&amp;quot;三个以上作为划分，同时上一行作为标题。 或 二、段落 斜体: 斜体 or 斜体； *斜体* or _斜体_ 粗体: 粗体； **粗体** 粗斜体: 粗斜体； ***粗斜体*** 删除线: ~~删除~~； ~~删除~",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16462584.html", "_blank");
+          
+        },
+      },{id: "post-从傅里叶级数-fourier-series-到离散傅里叶变换-discrete-fourier-transform-dingyang",
+        
+          title: '从傅里叶级数（Fourier series）到离散傅里叶变换（Discrete Fourier transform） - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "从傅里叶级数（Fourier series）到离散傅里叶变换（Discrete Fourier transform） 一. 傅里叶级数（FS） 首先从最直观的开始，我们有一个信号$x(t)$（满足Dirichelet条件），==先假设它是周期的==，为了研究它，我们使用级数将之展开，展开方法如下 $",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/15925430.html", "_blank");
+          
+        },
+      },{id: "post-番茄钟的实现-基于xilinx-ego1学习板-dingyang",
+        
+          title: '番茄钟的实现（基于Xilinx EGO1学习板） - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "番茄钟设计 一、总体设计 1.番茄工作法简介 番茄工作法由意大利的奇列洛创造。其内容就是：工作25分钟休息5分钟，循环四次后休息15分钟。 本项目就是基于Xilinx Ego1开发板实现一个计时器，该计时器能实现： 25分钟工作倒计时 5分钟休息倒计时 二、开发板介绍 开发板用户手册(提取码：201",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/16006369.html", "_blank");
           
         },
       },{id: "news-i-create-my-own-page-sparkles-smile",
