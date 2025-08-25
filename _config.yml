@@ -243,7 +243,11 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories]
+  enabled: [year, tag, category]
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
   permalinks:
     year: "/blog/:year/"
     tag: "/blog/tag/:name/"
