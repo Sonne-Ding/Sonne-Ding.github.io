@@ -251,7 +251,7 @@ jekyll-archives:
   permalinks:
     year: "/blog/:year/"
     tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+    category: "/blog/category/:name/"   
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
