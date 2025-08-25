@@ -1,0 +1,51 @@
+{% comment %}
+  repo_activity.liquid
+  在需要的地方插入：
+    {% include repo_activity.liquid username="你的用户名" %}
+  支持 _config.yml 中的可选配置：
+    repo_activity:
+      theme_light:  "default"
+      theme_dark:   "github-compact"
+      bg_color:     "ffffff"
+      color:        "178600"
+      line:         "178600"
+      point:        "ffffff"
+      area:         true
+      hide_border:  true
+{% endcomment %}
+
+{% assign cfg = site.repo_activity | default: empty_obj %}
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
+    {% comment %} 桌面 ≥ 768px {% endcomment %}
+    <span class="d-none d-sm-none d-md-block">
+      <img class="only-light"
+           alt="{{ include.username }}'s activity graph"
+           src="https://github-readme-activity-graph.vercel.app/graph?username={{ include.username }}&theme={{ cfg.theme_light | default: 'default' }}&bg_color={{ cfg.bg_color | default: 'ffffff' }}&color={{ cfg.color | default: '178600' }}&line={{ cfg.line | default: '178600' }}&point={{ cfg.point | default: 'ffffff' }}&area={{ cfg.area | default: true }}&hide_border={{ cfg.hide_border | default: true }}">
+      <img class="only-dark"
+           alt="{{ include.username }}'s activity graph"
+           src="https://github-readme-activity-graph.vercel.app/graph?username={{ include.username }}&theme={{ cfg.theme_dark | default: 'github-compact' }}&bg_color={{ cfg.bg_color | default: '0D1117' }}&color={{ cfg.color | default: '5BCDEC' }}&line={{ cfg.line | default: '5BCDEC' }}&point={{ cfg.point | default: 'FFFFFF' }}&area={{ cfg.area | default: true }}&hide_border={{ cfg.hide_border | default: true }}">
+    </span>
+
+    {% comment %} 平板 576–768px {% endcomment %}
+    <span class="d-none d-sm-block d-md-none">
+      <img class="only-light"
+           alt="{{ include.username }}'s activity graph"
+           src="https://github-readme-activity-graph.vercel.app/graph?username={{ include.username }}&theme={{ cfg.theme_light | default: 'default' }}&bg_color={{ cfg.bg_color | default: 'ffffff' }}&color={{ cfg.color | default: '178600' }}&line={{ cfg.line | default: '178600' }}&point={{ cfg.point | default: 'ffffff' }}&area={{ cfg.area | default: true }}&hide_border={{ cfg.hide_border | default: true }}">
+      <img class="only-dark"
+           alt="{{ include.username }}'s activity graph"
+           src="https://github-readme-activity-graph.vercel.app/graph?username={{ include.username }}&theme={{ cfg.theme_dark | default: 'github-compact' }}&bg_color={{ cfg.bg_color | default: '0D1117' }}&color={{ cfg.color | default: '5BCDEC' }}&line={{ cfg.line | default: '5BCDEC' }}&point={{ cfg.point | default: 'FFFFFF' }}&area={{ cfg.area | default: true }}&hide_border={{ cfg.hide_border | default: true }}">
+    </span>
+
+    {% comment %} 手机 < 576px {% endcomment %}
+    <span class="d-block d-sm-none">
+      <img class="only-light"
+           alt="{{ include.username }}'s activity graph"
+           src="https://github-readme-activity-graph.vercel.app/graph?username={{ include.username }}&theme={{ cfg.theme_light | default: 'default' }}&bg_color={{ cfg.bg_color | default: 'ffffff' }}&color={{ cfg.color | default: '178600' }}&line={{ cfg.line | default: '178600' }}&point={{ cfg.point | default: 'ffffff' }}&area={{ cfg.area | default: true }}&hide_border={{ cfg.hide_border | default: true }}">
+      <img class="only-dark"
+           alt="{{ include.username }}'s activity graph"
+           src="https://github-readme-activity-graph.vercel.app/graph?username={{ include.username }}&theme={{ cfg.theme_dark | default: 'github-compact' }}&bg_color={{ cfg.bg_color | default: '0D1117' }}&color={{ cfg.color | default: '5BCDEC' }}&line={{ cfg.line | default: '5BCDEC' }}&point={{ cfg.point | default: 'FFFFFF' }}&area={{ cfg.area | default: true }}&hide_border={{ cfg.hide_border | default: true }}">
+    </span>
+  </a>
+</div>

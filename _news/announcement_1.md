@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 I create my own page! :sparkles: :smile:
-
