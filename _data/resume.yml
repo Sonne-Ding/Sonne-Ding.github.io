@@ -14,7 +14,7 @@ education:
     area: Biomedical Engineering
     studyType: Ph.D.
     startDate: "2023-09-01"
-    endDate: null   # ongoing
+    endDate: null # ongoing
 
   - institution: Xi’an Jiao Tong University, School of Biomedical Engineering
     area: Biomedical Engineering
@@ -27,7 +27,6 @@ education:
     studyType: B.Eng.
     startDate: "2018-09-01"
     endDate: "2020-07-15"
-
 
 skills:
   - name: Programming
