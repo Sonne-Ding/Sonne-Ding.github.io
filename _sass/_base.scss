@@ -1423,3 +1423,27 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// =======================
+// 加粗整站文字
+// =======================
+
+// 1. 正文统一 400
+body,
+p,
+li,
+span,
+div {
+  font-weight: 400 !important;
+}
+
+// 2. 标题统一 600
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600 !important;
+}
+
+.post a,
+.publications a,
+.projects a {
+  font-weight: 700 !important;
+}

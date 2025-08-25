@@ -1,0 +1,53 @@
+# _data/resume.yml
+basics:
+  name: Sonne Ding / 丁阳
+  label: Ph.D. Candidate in BME
+  email: yang_ding@sjtu.edu.cn # Replace with your email
+  github: https://github.com/Sonne-Ding
+  cnblog: https://www.cnblogs.com/yang-ding
+  location:
+    city: Shanghai
+    country: China
+
+education:
+  - institution: Shanghai Jiao Tong University, School of Biomedical Engineering
+    area: Biomedical Engineering
+    studyType: Ph.D.
+    startDate: "2023-09-01"
+    endDate: null   # ongoing
+
+  - institution: Xi’an Jiao Tong University, School of Biomedical Engineering
+    area: Biomedical Engineering
+    studyType: B.Eng.
+    startDate: "2020-09-01"
+    endDate: "2023-06-30"
+
+  - institution: Xi’an Jiao Tong University, School of Medicine
+    area: Clinical Medicine
+    studyType: B.Eng.
+    startDate: "2018-09-01"
+    endDate: "2020-07-15"
+
+
+skills:
+  - name: Programming
+    keywords:
+      - Python
+      - C/C++
+      - MATLAB
+      - C#
+      - Labview
+  - name: Research
+    keywords:
+      - Endoscopic Image Processing
+      - Stereo Depth Estimation
+      - 3-D Reconstruction
+      - 3-D Gaussian Splatting
+
+interests:
+  - name: Outdoor Sports
+    keywords:
+      - Hiking
+      - Cycling
+      - Trekking
+      - Fitness
