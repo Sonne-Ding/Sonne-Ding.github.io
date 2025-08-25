@@ -20,7 +20,7 @@ nav_order: 4
 ---
 ## Repository activity
 
-{% include repo_activity.liquid username=user %}
+{% include repository/repo_activity.liquid username=user %}
 <!-- 
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
