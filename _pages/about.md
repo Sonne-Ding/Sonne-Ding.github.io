@@ -38,15 +38,11 @@ latest_posts:
     <span class="colon">:</span>
     <span class="value"><u> yang_ding@sjtu.edu.cn</u></span>
 
-    <span class="key"><b>🧭 Location </b></span>
-    <span class="colon">:</span>
-    <span class="value"> Xuhui, Shanghai, China </span>
-
     <span class="key"><b> 🏛 Affiliation</b></span>
     <span class="colon">:</span>
-    <span class="value"> Shanghai Jiao Tong University, School of Biomedical Engineering</span>
+    <span class="value"> Shanghai Jiao Tong University</span>
 
-    <span class="key"><b>💡 Research Interests </b></span>
+    <span class="key"><b>💡 Interests </b></span>
     <span class="colon">:</span>
     <span class="value">
       Endoscopic Image Processing,
