@@ -19,6 +19,7 @@ Add to `_bibliography/papers.bib`
 There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
 
 - `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the \_data folder and adding entries that match.
+- `doi`: Adds a link to the DOI website
 - `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
 - `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
 - `annotation`: Adds a popover info message to the end of the author list that can potentially be used to clarify superscripts. HTML is allowed.
