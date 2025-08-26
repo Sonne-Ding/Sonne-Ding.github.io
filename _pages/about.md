@@ -36,7 +36,7 @@ latest_posts:
   <div class="basics-item">
     <span class="key"><b> 📬 Email </b></span>
     <span class="colon">:</span>
-    <span class="value"><u> yang_ding@sjtu.edu.cn</u></span>
+    <span class="value"><a href="mailto:yang_ding@sjtu.edu.cn"> yang_ding@sjtu.edu.cn</a></span>
 
     <span class="key"><b> 🏛 Affiliation</b></span>
     <span class="colon">:</span>

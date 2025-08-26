@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I create my own page! :sparkles: :smile:
+I created my personal homepage! :sparkles: :smile:
