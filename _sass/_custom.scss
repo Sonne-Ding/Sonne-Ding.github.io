@@ -12,3 +12,31 @@ hr.section-divider {
   height: 1.5rem; /* 想要再小就调 1rem，再大 2rem */
   content: "";
 }
+
+.cv-basics-box {
+  .basics-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color-light);
+  }
+  .basics-item {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    .key {
+      font-weight: 700;
+      margin-right: 0.3rem;
+    }
+    .value {
+      color: var(--global-text-color-light);
+    }
+    .colon {
+      font-weight: 700;
+      color: var(--global-text-color-light);
+    }
+  }
+}

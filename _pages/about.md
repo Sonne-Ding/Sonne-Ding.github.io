@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>A Ph.D. candidate at Shanghai Jiao Tong University</a>.
+# subtitle: <a href='#'>A Ph.D. candidate at Shanghai Jiao Tong University</a>.
 
 profile:
   align: left
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p> 🚩 Xuhui, Shanghai, China </p>
+  more_info:
+    # <p> 🚩 Xuhui, Shanghai, China </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -25,4 +25,34 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I'm Ding Yang, a PhD student at the School of Biomedical Engineering, Shanghai Jiao Tong University. My research interests include endoscopic image processing, depth estimation, image matching, binocular depth estimation, and 3D reconstruction.
+<!-- 手动 Basics 框 -->
+<div class="cv-basics-box">
+  <div class="basics-title"><b>Information</b></div>
+
+  <div>Hi, I'm Yang Ding, now a Ph.D. candidate in Biomedical Engineering at Shanghai Jiao Tong University. Welcome to my website!
+  </div>
+
+  <br class="spacer">
+  <div class="basics-item">
+    <span class="key"><b> 📬 Email </b></span>
+    <span class="colon">:</span>
+    <span class="value"><u> yang_ding@sjtu.edu.cn</u></span>
+
+    <span class="key"><b>🧭 Location </b></span>
+    <span class="colon">:</span>
+    <span class="value"> Xuhui, Shanghai, China </span>
+
+    <span class="key"><b> 🏛 Affiliation</b></span>
+    <span class="colon">:</span>
+    <span class="value"> Shanghai Jiao Tong University, School of Biomedical Engineering</span>
+
+    <span class="key"><b>💡 Research Interests </b></span>
+    <span class="colon">:</span>
+    <span class="value">
+      Endoscopic Image Processing,
+      Stereo Matching,
+      3D Reconstruction
+    </span>
+
+  </div>
+</div>
