@@ -158,8 +158,8 @@ ninja.data = [{
             window.open("https://www.cnblogs.com/yang-ding/p/16006369.html", "_blank");
           
         },
-      },{id: "news-i-create-my-own-page-sparkles-smile",
-          title: 'I create my own page! :sparkles: :smile:',
+      },{id: "news-i-created-my-personal-homepage-sparkles-smile",
+          title: 'I created my personal homepage! :sparkles: :smile:',
           description: "",
           section: "News",},{
         id: 'social-email',
