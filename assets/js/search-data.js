@@ -169,6 +169,13 @@ ninja.data = [{
           window.open("mailto:%79%61%6E%67_%64%69%6E%67@%73%6A%74%75.%65%64%75.%63%6E", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Sonne-Ding", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
