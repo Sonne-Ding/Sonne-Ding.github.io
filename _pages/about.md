@@ -29,7 +29,7 @@ latest_posts:
 <div class="cv-basics-box">
   <div class="basics-title"><b>Information</b></div>
 
-  <div>Hi, I'm Yang Ding, now a Ph.D. candidate in Biomedical Engineering at Shanghai Jiao Tong University. Welcome to my website!
+  <div>Hi, I am 丁阳 (Yang Ding, or simply Sunny Ding), now a Ph.D. candidate in Biomedical Engineering at Shanghai Jiao Tong University. Welcome to my website!
   </div>
 
   <br class="spacer">
