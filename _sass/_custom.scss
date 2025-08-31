@@ -18,7 +18,7 @@ hr.section-divider {
     font-size: 1.25rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
   }
   .basics-item {
     display: grid;
@@ -32,11 +32,11 @@ hr.section-divider {
       margin-right: 0.3rem;
     }
     .value {
-      color: var(--global-text-color-light);
+      color: var(--global-text-color);
     }
     .colon {
       font-weight: 700;
-      color: var(--global-text-color-light);
+      color: var(--global-text-color);
     }
   }
 }
