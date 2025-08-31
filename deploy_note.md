@@ -4,7 +4,8 @@
 
 prettier check:
 `npx prettier . --check`
-`prettier . --write`
+`npx prettier . --write`
+`npx prettier --write filepath`
 
 bundle:
 `bundle exec jekyll clean`

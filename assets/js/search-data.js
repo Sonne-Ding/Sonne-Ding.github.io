@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -161,7 +161,12 @@ ninja.data = [{
       },{id: "news-i-created-my-personal-homepage-sparkles-smile",
           title: 'I created my personal homepage! :sparkles: :smile:',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-rresm",
+          title: 'RRESM',
+          description: "Robust Real-Time Endoscopic Stereo Matching under Fuzzy Tissue Boundaries",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/RRESM/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
