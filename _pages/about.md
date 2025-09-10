@@ -29,11 +29,16 @@ latest_posts:
 <div class="cv-basics-box">
   <div class="basics-title"><b>Information</b></div>
 
-  <div>Hi, I am 丁阳 (Yang Ding, or simply Sunny Ding), now a Ph.D. candidate in Biomedical Engineering at Shanghai Jiao Tong University. Welcome to my website!
+  <div>Hi, I am 丁阳 (Yang Ding, or Sunny Ding), now a Ph.D. candidate.
   </div>
 
   <br class="spacer">
   <div class="basics-item">
+  
+    <span class="key"><b> 👨‍🏫 My Advisor</b></span>
+    <span class="colon">:</span>
+    <span class="value"><a href="https://imr.sjtu.edu.cn/sz_teachers/3023.html"> Prof. Dahong Qian</a></span>
+
     <span class="key"><b> 📬 Email </b></span>
     <span class="colon">:</span>
     <span class="value"><a href="mailto:yang_ding@sjtu.edu.cn"> yang_ding@sjtu.edu.cn</a></span>
