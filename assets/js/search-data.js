@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-ubuntu22-04安装rime-雾凇输入法-美化-实现跟微软拼音一样的使用体验-基于flatpak-dingyang",
+        },{id: "post-sceneflow数据集国内下载方法-dingyang",
+        
+          title: 'SceneFlow数据集国内下载方法 - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "官网：https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html 百度网盘离线下载（最佳实现） 打开官网地址，找到需要下载的数据集； 如果是.torrent，下载完成后，打开百度网盘，创建离线",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.cnblogs.com/yang-ding/p/19104585", "_blank");
+          
+        },
+      },{id: "post-ubuntu22-04安装rime-雾凇输入法-美化-实现跟微软拼音一样的使用体验-基于flatpak-dingyang",
         
           title: 'Ubuntu22.04安装rime+雾凇输入法+美化，实现跟微软拼音一样的使用体验(基于Flatpak) - dingyang <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
