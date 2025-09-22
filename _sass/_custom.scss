@@ -13,30 +13,295 @@ hr.section-divider {
   content: "";
 }
 
+// About page layout optimization
+.post .post-header {
+  display: none; // Hide the large title "Sunny Ding"
+}
+
+.post .profile {
+  float: none !important; // Override default float
+  margin-bottom: 0;
+  position: absolute; // Hide original position
+  opacity: 0;
+  pointer-events: none;
+}
+
+// Business card style for Information section with integrated profile
 .cv-basics-box {
-  .basics-title {
-    font-size: 1.25rem;
-    font-weight: 800;
-    margin-bottom: 0.5rem;
-    color: var(--global-text-color);
+  background: #f3f3f3f0 !important;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0;
+
+  // Subtle gradient overlay
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--global-theme-color), var(--global-theme-color-dark, var(--global-theme-color)));
+    border-radius: 1rem 1rem 0 0;
   }
+
+  // Card header with title and intro
+  .card-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    background: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.03);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+
+    .basics-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      color: var(--global-theme-color);
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -0.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90px;
+        height: 2px;
+        background: var(--global-theme-color);
+        border-radius: 1px;
+      }
+    }
+
+    .intro-text {
+      font-style: italic;
+      color: var(--global-text-color-light, var(--global-text-color));
+      line-height: 1.6;
+      margin: 0;
+      font-size: 1.05rem;
+    }
+  }
+
+  // Card content with image and info
+  .card-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    width: 100%;
+
+    .profile-image-container {
+      flex: 0 0 250px; // Fixed width, no grow, no shrink
+      width: 290px;
+      display: flex;
+      justify-content: center;
+
+      .relocated-profile {
+        width: 290px;
+        height: 290px;
+
+        figure {
+          margin: 0;
+          width: 290px !important;
+          height: 300px !important;
+
+          img {
+            // width: 260px !important;
+            height: 330px !important;
+            border-radius: 1rem;
+            object-fit: cover;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            border: 1px solid var(--global-theme-color);
+            display: block;
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            cursor: pointer;
+
+            &:hover {
+              transform: translateY(-2px) scale(1.01);
+              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+              border-color: var(--global-theme-color);
+            }
+          }
+        }
+      }
+    }
+
+    .basics-item {
+      flex: 1 1 auto; // Grow to fill remaining space
+      min-width: 0; // Prevent overflow
+      width: calc(100% - 270px); // Explicit width calculation (250px + 20px gap)
+    }
+  }
+
+  // Responsive content layout
+  @media (max-width: 768px) {
+    .card-content {
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: center;
+
+      .profile-image-container {
+        flex: none;
+        width: 100%;
+
+        .relocated-profile {
+          width: 180px;
+          height: 180px;
+
+          figure {
+            width: 180px !important;
+            height: 180px !important;
+
+            img {
+              width: 180px !important;
+              height: 180px !important;
+            }
+          }
+        }
+      }
+
+      .basics-item {
+        width: 100%;
+      }
+    }
+  }
+
   .basics-item {
-    display: grid;
-    grid-template-columns: auto auto 1fr;
-    gap: 0.5rem;
-    align-items: baseline;
-    margin-bottom: 1rem;
-    line-height: 1.4;
-    .key {
-      font-weight: 700;
-      margin-right: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 0;
+
+    > span {
+      display: flex;
+      align-items: center;
+      padding: 0.75rem;
+      background: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.05);
+      border-radius: 0.5rem;
+      border-left: 3px solid var(--global-theme-color);
+      transition: all 0.2s ease;
+
+      &:hover {
+        background: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.1);
+        transform: translateX(2px);
+      }
+
+      .key {
+        font-weight: 600;
+        margin-right: 0.5rem;
+        min-width: 140px;
+        color: var(--global-text-color);
+      }
+
+      .colon {
+        font-weight: 600;
+        color: var(--global-theme-color);
+        margin-right: 0.5rem;
+      }
+
+      .value {
+        color: var(--global-text-color);
+        flex: 1;
+
+        a {
+          color: var(--global-theme-color);
+          text-decoration: none;
+          font-weight: 500;
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: var(--global-theme-color-dark, var(--global-theme-color));
+            text-decoration: underline;
+          }
+        }
+      }
     }
-    .value {
-      color: var(--global-text-color);
+  }
+}
+
+// Repository cards styling - transparent design
+.repo-card {
+  background: transparent !important;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+  }
+
+  .repo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    img {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto;
+      min-height: 180px;
+      object-fit: cover;
+      border-radius: 0.375rem;
     }
-    .colon {
-      font-weight: 700;
-      color: var(--global-text-color);
-    }
+  }
+}
+
+// Standalone streak styling (not in card) - override base.scss
+.text-center .repo {
+  display: inline-block !important;
+  margin: 0 !important;
+  max-width: none !important;
+  width: auto !important;
+
+  img {
+    display: block;
+  }
+}
+
+// Activity card styling
+.activity-card .repo img {
+  min-height: 200px;
+  object-fit: contain;
+}
+
+// Repository hover effects
+.repositories .repo {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // Default subtle shadow
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); // Enhanced shadow on hover
+  }
+
+  img {
+    border-radius: 0.375rem;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.02);
   }
 }
