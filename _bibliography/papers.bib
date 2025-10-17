@@ -17,3 +17,26 @@
   bibtex_show={true},
   pdf={https://www.thelancet.com/action/showPdf?pii=S2589-5370%2825%2900050-1}
 }
+
+@article{ding2025robustrealtimeendoscopicstereo,
+      title={Robust Real-Time Endoscopic Stereo Matching under Fuzzy Tissue Boundaries},
+      abstract={Real-time acquisition of accurate scene depth is essential for automated robotic minimally invasive surgery. Stereo matching with binocular endoscopy can provide this depth information. However, existing stereo matching methods, designed primarily for natural images, often struggle with endoscopic images due to fuzzy tissue boundaries and typically fail to meet real-time requirements for high-resolution endoscopic image inputs. To address these challenges, we propose \textbf{RRESM}, a real-time stereo matching method tailored for endoscopic images. Our approach integrates a 3D Mamba Coordinate Attention module that enhances cost aggregation through position-sensitive attention maps and long-range spatial dependency modeling via the Mamba block, generating a robust cost volume without substantial computational overhead. Additionally, we introduce a High-Frequency Disparity Optimization module that refines disparity predictions near tissue boundaries by amplifying high-frequency details in the wavelet domain. Evaluations on the SCARED and SERV-CT datasets demonstrate state-of-the-art matching accuracy with a real-time inference speed of 42 FPS.},
+      author={Yang Ding and Can Han and Sijia Du and Yaqi Wang and Dahong Qian},
+      journal={PRCV},
+      year={2025},
+      preview={RRESM_framework.png},
+      arxiv={2503.00731},
+      website={https://sunny-ding.cn/RRESM/},
+      bibtex_show={true},
+      selected={true}
+}
+@article{ding2025echo,
+      title={End-to-End Echocardiogram Video Analysis for Automated Fetal Congenital Heart Disease Diagnosis}, 
+      author={Yang Ding and Can Han and Tan Zhou and Chenyu Zhu and Dahong Qian},
+      abstract={Fetal congenital heart disease (FCHD) is a leading cause of perinatal morbidity and mortality, highlighting the need for effective prenatal screening. While fetal echocardiogram remains the gold standard for prenatal cardiac assessment, accurate diagnosis is hampered by the complexity of fetal cardiac anatomy, highly variable fetal orientation, and the prevalence of non-diagnostic frames—challenges further exacerbated in resource-limited clinical environments. While recent deep learning methods have advanced automated echocardiographic analysis, few studies address the unique challenges of fetal imaging. To fill this gap, we curated a dedicated dataset of 388 annotated fetal 2-D echocardiogram videos (284 normal, 104 FCHD). Leveraging this dataset, we present a novel end-to-end deep learning framework for automated FCHD diagnosis. Our approach employs a Monte Carlo Keyframe Selector to identify diagnostically relevant frames, an Evidence Region Extractor to localize salient anatomical regions, and a Cross Retrieval Module to effectively fuse local and global video features. Extensive experiments demonstrate that the proposed framework substantially improves the robustness and accuracy of FCHD diagnosis from fetal echocardiogram videos, offering significant potential for advancing prenatal cardiac screening.},
+      journal={BIBM},
+      year={2025},
+      preview={FCHD_framework.png},
+      bibtex_show={true},
+      selected={true}
+}

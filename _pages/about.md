@@ -23,6 +23,10 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+# Page-level performance toggles
+badges: false
+math: false
 ---
 
 <!-- 整合的个人信息卡片 -->
@@ -79,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function() {
     profileClone.style.opacity = '1';
     profileClone.style.position = 'static';
     profileClone.style.pointerEvents = 'auto';
-    
     // Add to new location inside the card
     profileImageContainer.appendChild(profileClone);
   }
