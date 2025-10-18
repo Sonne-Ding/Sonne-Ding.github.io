@@ -115,17 +115,17 @@ hr.section-divider {
             height: 330px !important;
             border-radius: 1rem;
             object-fit: cover;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-            border: 1px solid var(--global-theme-color);
+            box-shadow: 0 6px 20px rgba(199, 210, 212, 0.15);
+            border: 1px solid #e6e9f2;
             display: block;
-            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            // transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             cursor: pointer;
 
-            &:hover {
-              transform: translateY(-2px) scale(1.01);
-              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
-              border-color: var(--global-theme-color);
-            }
+            // &:hover {
+            //   transform: translateY(-2px) scale(1.01);
+            //   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+            //   border-color: var(--global-theme-color);
+            // }
           }
         }
       }
@@ -229,15 +229,8 @@ hr.section-divider {
   background: transparent !important;
   border: 1px solid var(--global-divider-color);
   border-radius: 0.5rem;
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-
-  &:hover {
-    border-color: var(--global-theme-color);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
-  }
-
+  // backdrop-filter: blur(8px);
+  // transition: all 0.3s ease;
   .card-body {
     padding: 1rem;
   }
@@ -267,13 +260,29 @@ hr.section-divider {
 
 // Standalone streak styling (not in card) - override base.scss
 .text-center .repo {
-  display: inline-block !important;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
   margin: 0 !important;
   max-width: none !important;
   width: auto !important;
 
+  a {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 由图片高度驱动容器高度，无需固定 */
+  }
+
   img {
     display: block;
+    height: 150px !important; /* 强制同高 */
+    width: auto !important;
+    max-width: 100% !important;
   }
 }
 
@@ -291,17 +300,17 @@ hr.section-divider {
   border-radius: 0.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // Default subtle shadow
 
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); // Enhanced shadow on hover
-  }
+  // &:hover {
+  //   transform: translateY(-4px);
+  //   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); // Enhanced shadow on hover
+  // }
 
   img {
     border-radius: 0.375rem;
     transition: transform 0.2s ease;
   }
 
-  &:hover img {
-    transform: scale(1.02);
-  }
+  // &:hover img {
+  //   transform: scale(1.02);
+  // }
 }
