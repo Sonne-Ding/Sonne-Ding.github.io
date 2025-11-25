@@ -242,6 +242,24 @@ hr.section-divider {
     font-size: 1.1rem;
   }
 
+  .card-text {
+    color: var(--global-text-color);
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .card-actions a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--global-theme-color-dark, var(--global-theme-color));
+      text-decoration: underline;
+    }
+  }
+
   .repo {
     margin: 0;
     padding: 0;
@@ -292,25 +310,25 @@ hr.section-divider {
   object-fit: contain;
 }
 
-// Repository hover effects
-.repositories .repo {
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // Default subtle shadow
+// // Repository hover effects
+// .repositories .repo {
+//   transition:
+//     transform 0.3s ease,
+//     box-shadow 0.3s ease;
+//   border-radius: 0.5rem;
+//   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // Default subtle shadow
 
-  // &:hover {
-  //   transform: translateY(-4px);
-  //   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); // Enhanced shadow on hover
-  // }
+// &:hover {
+//   transform: translateY(-4px);
+//   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); // Enhanced shadow on hover
+// }
 
-  img {
-    border-radius: 0.375rem;
-    transition: transform 0.2s ease;
-  }
+//   img {
+//     border-radius: 0.375rem;
+//     transition: transform 0.2s ease;
+//   }
 
-  // &:hover img {
-  //   transform: scale(1.02);
-  // }
-}
+//   // &:hover img {
+//   //   transform: scale(1.02);
+//   // }
+// }
