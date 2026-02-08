@@ -70,7 +70,7 @@ math: false
   </div>
 </div>
 
-<!-- 日期进度条卡片 -->
+<!-- 日期进度条卡片（已注释）
 <div class="cv-basics-box progress-timeline-box" style="margin-top: 2rem;">
   <div class="card-header">
     <div class="basics-title progress-timeline-title"><b>Progress Timeline</b></div>
@@ -83,7 +83,9 @@ math: false
     </div>
   </div>
 </div>
+-->
 
+<!-- 日期进度条样式（已注释）
 <style>
 .progress-timeline-box .progress-timeline-title {
   font-size: 1.3rem !important;
@@ -134,6 +136,7 @@ math: false
   }
 }
 </style>
+-->
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -152,7 +155,8 @@ document.addEventListener('DOMContentLoaded', function() {
     profileImageContainer.appendChild(profileClone);
   }
 
-  // Initialize progress timeline
+  // Initialize progress timeline（已注释）
+  /*
   function initProgressTimeline() {
     const startDate = new Date('2026-01-01');
     const endDate = new Date('2028-01-01');
@@ -203,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
   
-  // Initialize the timeline
   initProgressTimeline();
+  */
 });
 </script>
