@@ -129,7 +129,7 @@ math: false
   .progress-timeline {
     gap: 2px;
   }
-  
+
   .progress-day {
     width: 10px;
     height: 10px;
